@@ -70,8 +70,10 @@ th{
 }
 
 .column{
-    padding-left: 800px;
-    width: 50%; 
+    float:middle;
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 660px;
 }
 
 button{
