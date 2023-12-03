@@ -70,6 +70,7 @@ th{
 }
 
 .column{
+    padding-top: 100px;
     padding-left: 600px;
     width: 50%; 
 }
