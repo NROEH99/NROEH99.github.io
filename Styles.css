@@ -1,0 +1,194 @@
+body{ 
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,94,253,0.8631827731092436) 100%);
+}
+
+h1{
+    color: black;
+    font-family: Georgia;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: Black;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h3{
+    color: Black;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.fav{
+  margin-top: 50px;
+}
+
+.current{
+  margin-top: 50px;
+}
+
+.who{
+  margin-top: 50px;
+}
+
+.name{
+  margin-top: 100px;
+}
+
+a:link{
+    text-decoration: none;
+}
+ 
+a:visited{
+    color: black;  
+}
+
+a:hover{
+    color: white;
+    cursor: pointer;
+} 
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+th{
+  font-size: 22px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column{
+    float:middle;
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 660px;
+}
+
+button{
+    background-color: transparent;
+    text-align: center;
+    font-size: large;
+    border-radius: 4px;
+    opacity: 1;
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .4;
+}
+
+audio{
+  float: center;
+  margin-bottom: 20px;
+}
+
+body {
+	margin: 0;
+	font-family: Georgia;
+	font-weight: 800;
+}
+
+.container {
+	width: 100%;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.games{
+  margin-top: 100px;
+}
+
+.games2{
+  list-style: none;
+  float: center;
+}
+
+.shows2{
+  float: center;
+}
+
+.movies{
+  margin-top: 100px;
+}
+
+.movies2{
+  float: center;
+}
+
+.artists{
+  margin-top: 100px;
+}
+
+.artists2{
+  float: center;
+}
+
+dt{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+dd{
+  font-size: 20px;
+}
