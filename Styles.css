@@ -70,7 +70,7 @@ th{
 }
 
 .column{
-    float:middle;
+    float:center;
     width: 30%;
     padding-top: 100px; 
 }
